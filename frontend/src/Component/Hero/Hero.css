@@ -1,0 +1,80 @@
+/* Hero.css */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff , #e1ffea22 60%);
+    display: flex;
+}
+
+.hero-left {
+    flex: 1.5; /* Increase flex value for bigger left section */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    transition: flex 0.5s ease, padding 0.5s ease, font-size 0.5s ease; /* Add transitions for flex, padding, and font size */
+    font-family: cursive;
+    gap: 25px;
+}
+
+.hero-left h2 {
+    color: purple;
+    font-size: 32px; /* Increase font size */
+    font-weight: 600;
+    transition: font-size 0.5s ease; /* Add transition for font size */
+}
+
+.hand-hand-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hand-hand-icon p {
+    margin: 0;
+    font-size: 35px; /* Increase font size */
+    color: #666;
+    font-weight: 500;
+}
+
+.hand-hand-icon img {
+    width: 28px; /* Increase icon size */
+    height: 28px;
+    margin-left: 5px;
+}
+
+.hero-latest-btn {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.hero-latest-btn div {
+    display: inline-block;
+}
+
+.hero-latest-btn button {
+     
+        width: 150px; /* Adjusted width */
+        height: 40px; /* Adjusted height */
+        outline: none;
+        border: 1px solid #7a7a7a;
+        border-radius: 75px;
+        color: #515151;
+        font-size: 16px; /* Adjusted font size */
+        background-color: white;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 145px;
+      }
+
+
+.hero-latest-btn button:hover {
+    background-color: #1797ca;
+}
+
+
+.hero-right img {
+    width: auto;
+    height: 550px;
+    padding-top: 50px;
+    padding-right: 150px;
+}

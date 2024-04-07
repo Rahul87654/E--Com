@@ -1,0 +1,13 @@
+/* Hero.css */
+.home {
+    height: 100vh; /* Set the height of the parent container to 100 viewport height */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Make the carousel items fill the entire height */
+  }
+  
+  .fill_height {
+    height: 100%; /* Ensure the content fills the entire height of the carousel items */
+  }
+  
